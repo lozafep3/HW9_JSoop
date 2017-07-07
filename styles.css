@@ -1,0 +1,18 @@
+p {
+    font-family: sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: grey;
+}
+
+#time_utc {
+    color: darkgreen;
+}
+
+#time_cet {
+    color: darkorange;
+}
+
+#time_utc2 {
+    color: darkslateblue;
+}
