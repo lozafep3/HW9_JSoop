@@ -21,7 +21,7 @@ function clock() {
             cSeconds = cDate.getSeconds();
 
         if (cDate.getHours() < 10) {
-            cHours = '0' + cDate.getHours() + timezone;
+            cHours = '0' + (cDate.getHours() + timezone);
         }
         if (cDate.getMinutes() < 10) {
             cMinutes = '0' + cDate.getMinutes();
